@@ -1,0 +1,24 @@
+{
+    "name": "PWA-19",
+    "version": "1.0.0",
+    "description": "PWA 19 Text Editor",
+    "main": "server.js",
+    "scripts": {
+      "start": "npm run build && cd server && node server.js",
+      "server": "cd server nodemon server.js --ignore client",
+      "build": "cd client && npm run build",
+      "install": "cd client && npm install",
+      "client": "cd client && npm start"
+    },
+    "keywords": [],
+    "author": "Saeed Amaan",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SaeedAmaan87/PWA-19.git"
+    },
+    "bugs": {
+      "url": "https://github.com/SaeedAmaan87/PWA-19/issues"
+    },
+    "homepage": "https://github.com/SaeedAmaan87/PWA-19#readme"
+  }

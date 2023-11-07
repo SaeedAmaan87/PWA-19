@@ -1,0 +1,74 @@
+/* style.css */
+
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Apply a background color and font family to the entire application */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Create a container for the text editor */
+  .text-editor {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the text editor's title */
+  .text-editor h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the text editor's content area */
+  .text-editor .content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    font-size: 16px;
+    line-height: 1.4;
+    border-radius: 5px;
+  }
+  
+  /* Style the "Save" button */
+  .text-editor .save-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .text-editor .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the "Install" button */
+  .install-button {
+    display: none; /* Hide by default until prompted for installation */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .install-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
